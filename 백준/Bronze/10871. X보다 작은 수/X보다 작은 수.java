@@ -26,7 +26,7 @@ public class Main {
 		arrStr = str.trim().split(" ");
 		
 		for (String y : arrStr) {
-			System.out.print(y + " ");
+			bw.write(y + " ");
 		}
 		
 		br.close();

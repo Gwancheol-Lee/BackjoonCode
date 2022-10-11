@@ -25,9 +25,7 @@ public class Main {
 		
 		Set<Integer> set = new HashSet<Integer>(Arrays.asList(arr));
 
-		int count = set.size();
-		
-		bw.write(String.valueOf(count));
+		bw.write(String.valueOf(set.size()));
 		br.close();
 		bw.close();
 	}
